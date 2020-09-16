@@ -10,10 +10,10 @@
 }
 
 body {
-    background-color: crimson;
 }
 
 header {
+    z-index: 2;
     position: fixed;
     font-size: 2rem;
     width: 100vw;
@@ -72,4 +72,45 @@ a {
 
 .sub-menu {
     display: none;
+}
+
+main {
+    margin: 0 15%;
+    z-index: 1;
+    position: absolute;
+    top: 8vh;
+    min-height: 100vh;
+    width: 70%;
+    background-color: darkturquoise;
+}
+
+#carousel-section {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(240, 140, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#frame {
+    height: 86%;
+    width: 96%;
+    left: 2%;
+    background-color: lawngreen;
+
+}
+
+#slider {
+
+}
+
+h1{
+    height: 9%;
+    background-color: lightsalmon;
+}
+
+img {
+    height: 50px;
+    width: 50px;
 }
