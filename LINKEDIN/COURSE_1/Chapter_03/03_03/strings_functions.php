@@ -10,6 +10,8 @@
   $first = "The quick brown fox";
   $second = " jumped over the lazy dog !";
 
+  
+
   ?>
 </body>
 
