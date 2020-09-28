@@ -35,8 +35,7 @@
               echo $var2; ?><br />
   <br />
   <?php
-  // PHP will convert a string to an integer
-  // but it is sloppy programming
+  // PHP will convert a string to an integer but it is sloppy programming (your're not F.)
   echo 1 + "2 houses";
   ?>
 </body>
