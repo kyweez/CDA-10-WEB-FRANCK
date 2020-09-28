@@ -10,6 +10,7 @@
   <?php echo $float + 7; ?><br />
   <?php echo 4 / 3; ?><br />
 
+  <!-- BEURK -->
   <?php echo 4 / 0; ?><br />
   <br />
   Round: <?php echo round($float, 1);   ?><br />
